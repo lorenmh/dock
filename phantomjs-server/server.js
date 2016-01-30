@@ -4,9 +4,9 @@ var http = require('http'),
 ;
 
 // PROCESS / PORT VALUES
-var PORT = process.env.SERVER_PORT || 5000,
-    DEFAULT_KARMA_PORT = 9876,
-    DEFAULT_URL = `http://localhost:${DEFAULT_KARMA_PORT}`
+var PORT = process.env.PORT || 5000,
+    DEFAULT_PORT = 9876,
+    DEFAULT_URL = `http://localhost:${DEFAULT_PORT}`
 ;
 
 // ROUTE REGEX
